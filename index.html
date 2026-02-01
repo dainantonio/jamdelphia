@@ -245,13 +245,27 @@
                             <div className={`h-2 ${Branding.colors.accent}`}></div>
                             <div className="p-8 flex-1 flex flex-col">
                                 <div className="mb-6">
-                                <div className="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center text-2xl mb-4">
-                                    ✒️
-                                </div>
-                                <h3 className="text-2xl font-bold text-gray-900 group-hover:text-[#c4a059] transition-colors">
-                                    Signature Seal Notary
-                                </h3>
-                                <p className="text-sm text-gray-400 font-medium mt-1">Professional Services</p>
+                                    {/* Recreated Logo Block */}
+                                    <div className="flex items-center gap-4 mb-4">
+                                        {/* Icon Box */}
+                                        <div className="w-16 h-16 bg-[#1e2a36] rounded-2xl flex items-center justify-center shadow-sm flex-shrink-0">
+                                            <svg viewBox="0 0 24 24" className="w-9 h-9 text-[#c4a059]" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                                                <circle cx="12" cy="10" r="5" />
+                                                <path d="M8.5 14.5L7 21L12 19L17 21L15.5 14.5" />
+                                            </svg>
+                                        </div>
+                                        {/* Text Block */}
+                                        <div className="flex flex-col">
+                                            <h3 className="text-2xl font-serif font-bold text-[#1e2a36] leading-none tracking-tight">
+                                                Signature Seal
+                                            </h3>
+                                            <span className="text-xs font-bold tracking-[0.2em] text-[#2DD4BF] uppercase mt-1">
+                                                Mobile Notary
+                                            </span>
+                                        </div>
+                                    </div>
+                                    {/* End Logo Block */}
+                                    <p className="text-sm text-gray-400 font-medium mt-2">Professional Services</p>
                                 </div>
                                 
                                 <p className="text-gray-600 mb-8 flex-1">
@@ -325,7 +339,7 @@
                                     </div>
                                     <div>
                                         <p className="text-sm text-slate-300 font-medium">Based In</p>
-                                        <p className="text-xl font-semibold">West Virginia / Pennsylvania Region</p>
+                                        <p className="text-xl font-semibold">Chesapeake, Ohio / Tri-State Area</p>
                                     </div>
                                 </div>
                             </div>
